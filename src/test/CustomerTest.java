@@ -36,6 +36,7 @@ public class CustomerTest {
 
     @Test
     public void update() {
+        System.out.println("hugo123");
         EntityManager em = entityManagerFactory.createEntityManager();
         EntityTransaction tx = em.getTransaction();
         Customer c = em.getReference(Customer.class,1);
